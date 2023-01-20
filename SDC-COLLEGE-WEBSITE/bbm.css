@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    text-align: left;
+}
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    height: 50px;
+    background: #262626;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+}
+nav{
+    float:left;
+    line-height: 50px;
+}
+nav a{
+    text-decoration: none;
+    font-family: bignoodletitling;
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin: 0 10px;
+    color: skyblue;
+}
+.banner{
+    width: 100%;
+    height: 500px;
+    position:fixed;
+    top: 50px;
+    background-image: url(bbm.jpeg);
+    
+    -webkit-borer-size:cover;
+    background-size: cover;
+    background-position:center center ;
+}
+.banner h2{
+    padding-top: 8%;
+    font-size: 50px;
+    
+    font-family: poppins;
+    text-transform: uppercase;
+    color: palevioletred;
+}
+.content{
+    width: 100%;
+    position: relative;
+    top: 550px;
+    
+    background-color:#f0ede5 ;
+    background-size: cover;
+   /* height: 1730px;*/
+}
+
+.content h2{
+    font-family: bignoodletitling;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    font-size: 40px;
+    margin: 0%;
+}
+   
+.content p{
+        padding: 2% 0;
+        font-family: merienda;
+        line-height: 30px;
+    }
+
+
+nav a:hover{
+    color: cyan;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #33ffff,
+                 0 0 5px #66ffff;
+
+}
+.wrapper h3{
+    align-items:flex-start;
+    font-family: Candara;
+    padding: 0%;
+    font-style: oblique ;
+    background: cover;
+    font-size: 28px;
+    
+}
+.wrapper img{
+    width: 100%;
+    height: 500px;
+    position:relative;
+    bottom: 0;
+}
+span{
+    font-size: 50px;
+    color: orangered;
+    float: left;
+    border: 5px solid;
+    padding: 0 5px;
+    margin-right: 10px;
+
+}
